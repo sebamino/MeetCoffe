@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* BODY */
+
+body {
+    text-align: center;
+    color: #000F08;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ultra', serif;
+}
+
+
+/* NAVBAR */
+
+nav {
+    background-color: #000F08;
+    color: white;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 25px;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 3px 6px #000F08;
+    padding: 100px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+/* SECCION UBICACION */
+
+#Ubicacion {
+    padding: 150px;
+}
+
+#Ubicacion h2 {
+    font-size: 50px;
+    margin: 40px 0px 20px 0px;
+}
+
+#Ubicacion p {
+    font-size: 30px;
+}
+
+
+/* SECCION Proxima-charla */
+
+#Proxima-charla {
+    background: #A4452C;
+    padding: 100px;
+    color: white;
+}
+
+#Proxima-charla img {
+    width: 200px;
+}
+
+#Proxima-charla img,
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Proxima-charla .texto {
+    text-align: left;
+    width: 40px;
+    margin-left: 20px;
+}
+
+#Proxima-charla .texto h3 {
+    font-size: 45px;
+}
+
+#Proxima-charla .texto h4 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#Proxima-charla .texto h6 {
+    font-size: 33px;
+}
+
+#Proxima-charla .texto span {
+    font-size: 20px;
+}
+
+#Proxima-charla .texto p {
+    font-size: 25px;
+}
+
+
+/* SECCION Eventos */
+
+#Eventos {
+    padding: 100px;
+}
+
+#Eventos h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#Eventos article {
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 30px;
+}
+
+#Eventos article img {
+    margin-bottom: 40px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #000F08;
+    color: white;
+    font-size: 25px;
+    padding: 120px 100px 100px 100px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+footer p {
+    margin-top: 40px;
+}
+
+
+/* <footer id="Contacto">
+    <a href="https://github.com">
+        <i class="fab fa-github-square fa-5x"></i>
+    </a>
+    <a href="https://twitter.com">
+        <i class="fab fa-twitter-square fa-5x"></i>
+    </a>
+    <a href="https://www.linkedin.com">
+        <i class="fab fa-linkedin fa-5x"></i>
+    </a>
+    <p>Meet & Coffe 2018. Todos los derechos reservados.</p>
+</footer> */
