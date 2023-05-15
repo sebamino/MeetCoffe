@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "../RoR"
+		},
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Apoyo desafío guiado - Meet and Coffee"
+    }
+}
